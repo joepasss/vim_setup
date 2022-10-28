@@ -40,7 +40,7 @@ EOF
 au BufNewFile,BufRead *.ts setlocal filetype=typescript
 au BufNewFile,BufRead *.tsx setlocal filetype=typescript.tsx
 
-set guifont=JetBrains\ Mono:h11
+set guifont=JetBrains\ Mono:h14
 
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
